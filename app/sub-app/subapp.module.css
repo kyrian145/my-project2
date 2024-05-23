@@ -1,0 +1,16 @@
+.dashboard{
+    width:auto;
+    height:auto;
+    background-color:red;
+}
+
+
+.arrange{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    color:purple;
+    width: auto;
+   
+}
