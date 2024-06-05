@@ -6,12 +6,12 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
 
-model todolist {
+model todo {
   id     String @id @default(uuid())
   createdat   DateTime @default(now())
   content    String
